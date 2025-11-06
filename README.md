@@ -154,17 +154,6 @@ This creates three files:
 - `metasploitable2-scan.xml` (XML format)
 - `metasploitable2-scan.gnmap` (greppable format)
 
-**📂 Where to save:**
-- All scan output files go in `nmap-scan-reports/`
-- Create summary document: `nmap-scan-reports/scan-summary.md`
-
-**📸 Screenshots to capture:**
-- Save in `screenshots/02-nmap-scanning/`
-- `nmap-tcp-scan.png`
-- `nmap-service-detection.png`
-- `nmap-os-detection.png`
-- `nmap-all-ports.png`
-
 ---
 
 ### Step 3: Vulnerability Scanning with OpenVAS/Nessus
