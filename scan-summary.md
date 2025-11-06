@@ -2,7 +2,7 @@
 
 **Target Network:** 192.168.100.0/24  
 **Scan Date:** October 22, 2025  
-**Performed By:** [Your Name]  
+**Performed By:** Yashraj Giri Goswami 
 **Tools Used:** Nmap 7.94
 
 ---
@@ -364,6 +364,6 @@ This exercise demonstrates the importance of regular vulnerability assessments a
 
 ---
 
-**Report Generated:** October 22, 2025  
-**Analyst:** [Your Name]  
+**Report Generated:** November 7, 2025  
+**Analyst:** Yashraj Giri Goswami  
 **ApexPlanet Cybersecurity Internship - Task 2**
