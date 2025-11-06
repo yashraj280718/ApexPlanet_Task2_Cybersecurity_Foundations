@@ -184,18 +184,6 @@ Access OpenVAS web interface: `https://127.0.0.1:9392`
 5. Review vulnerability report
 6. Export report as PDF
 
-**📂 Where to save:**
-- Export vulnerability reports to `openvas-reports/`
-- Save reports as: `metasploitable2-vulnerability-report.pdf`
-- Create analysis document: `openvas-reports/findings-summary.md`
-
-**📸 Screenshots to capture:**
-- Save in `screenshots/03-vulnerability-scanning/`
-- `openvas-dashboard.png`
-- `scan-configuration.png`
-- `vulnerability-summary.png`
-- `critical-vulnerabilities.png`
-- `high-severity-findings.png`
 
 ---
 
@@ -236,20 +224,6 @@ sudo hping3 -S -p 80 --flood 192.168.100.100
 # Filter: tcp.flags.syn == 1 and ip.dst == 192.168.100.100
 ```
 
-**📂 Where to save:**
-- Save .pcap files in `wireshark-analysis/`
-- Examples: `syn-flood-attack.pcap`, `ftp-credentials.pcap`, `http-traffic.pcap`
-- Create analysis document: `wireshark-analysis/packet-analysis-notes.md`
-- Document filter examples: `wireshark-analysis/filter-examples.md`
-
-**📸 Screenshots to capture:**
-- Save in `screenshots/04-wireshark-analysis/`
-- `wireshark-ftp-credentials.png`
-- `wireshark-syn-flood.png`
-- `wireshark-http-traffic.png`
-- `wireshark-dns-queries.png`
-
----
 
 ### Step 5: Firewall Configuration with iptables
 
@@ -300,18 +274,6 @@ sudo iptables -A INPUT -p tcp --dport 21 -j DROP
 sudo iptables-save > /etc/iptables/rules.v4
 ```
 
-**📂 Where to save:**
-- Save all scripts in `firewall-rules/`
-- Create explanation document: `firewall-rules/config-summary.md`
-
-**📸 Screenshots to capture:**
-- Save in `screenshots/05-firewall-configuration/`
-- `iptables-rules-list.png`
-- `firewall-blocking-scan.png`
-- `allowed-http-traffic.png`
-- `blocked-port-verification.png`
-
----
 
 ## 📁 Repository Structure
 
@@ -388,27 +350,6 @@ Task2-Network-Scanning/
     └── troubleshooting.md                  # Common issues and solutions
 ```
 
----
-
-## 📸 Screenshots and Video Placement Guide
-
-### Screenshots Organization
-
-**General Guidelines:**
-- Use descriptive filenames (e.g., `nmap-tcp-scan-metasploitable2.png`)
-- Annotate screenshots with arrows/text for clarity
-- Capture full terminal output when possible
-- Include timestamps where relevant
-
-**Directory Structure:**
-```
-screenshots/
-├── 01-reconnaissance/          # Step 1 screenshots
-├── 02-nmap-scanning/           # Step 2 screenshots
-├── 03-vulnerability-scanning/  # Step 3 screenshots
-├── 04-wireshark-analysis/      # Step 4 screenshots
-└── 05-firewall-configuration/  # Step 5 screenshots
-```
 
 ### Video Placement
 
@@ -418,18 +359,6 @@ demo-video/
 └── task2-demo.mp4
 ```
 
-**Alternative Options:**
-1. **Upload to Google Drive** and add link in README:
-   ```markdown
-   🎥 [Watch Demo Video](https://drive.google.com/...)
-   ```
-
-2. **Upload to YouTube (unlisted)** and embed:
-   ```markdown
-   🎥 [Watch Demo Video on YouTube](https://youtu.be/...)
-   ```
-
-3. **Upload to LinkedIn** as per internship requirements
 
 **Video Content (5 minutes):**
 - Introduction (15 sec)
@@ -504,15 +433,9 @@ Upon completing Task 2, you will have:
 
 ## ✉️ Contact
 
-**Intern:** [Your Name]  
-**Email:** [Your Email]  
-**LinkedIn:** [Your LinkedIn Profile]  
-**GitHub:** [Your GitHub Profile]
+**Intern:** Yashraj Giri Goswami
+**Email:** yashrajgirigoswami775@gmail.com
+**LinkedIn:** [[LinkedIn Profile]](https://www.linkedin.com/in/yashraj-giri-goswami-b12705326/)  
+**GitHub:** [[GitHub Profile]](https://github.com/yashraj280718)
 
 ---
-
-**⭐ If you find this repository helpful, please consider giving it a star!**
-
----
-
-*Task 2 completed as part of ApexPlanet Software Pvt. Ltd. 60-Day Cybersecurity & Ethical Hacking Internship Program*
